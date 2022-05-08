@@ -6,3 +6,23 @@ h1 {
     color: #DC143C;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+p {
+    color:darkgreen;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color:darkred;
+}
+
+a {
+    font-size: 27px;
+}
+
+::selection {
+    background: #A52A2A;
+}
