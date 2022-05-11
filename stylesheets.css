@@ -1,22 +1,35 @@
 body {
-    background-color: #1B1B1B;
+    background-image: url(bg.png);
+    background-size: 1920px, 1080px;
+}
+
+.homepage {
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgba(197, 37, 37, 0.8);
+    padding: 10px;
+    height: 90vh;
 }
 
 h1 {
-    color: #DC143C;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #3259e2;
+    font-family: 'Oxygen';
+    font-size: 70px;
+    font-style: italic;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: rgb(76, 124, 147);
 }
 
 p {
-    color:darkgreen;
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 30px;
+    color: #17191b;
+    font-family: 'Alegreya';
+    font-size: 35px;
 }
 
 h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
-    color:darkred;
+    font-family: 'Koulen';
+    font-size: 55px;
+    color:#72cb25;
 }
 
 a {
@@ -27,4 +40,17 @@ a {
     background: #A52A2A;
 }
 
-/*e */
+@font-face {
+    font-family: Oxygen;
+    src: url(fontscauseyes/Oxygen-Bold.ttf);
+}
+
+@font-face {
+    font-family: Koulen;
+    src: url(fontscauseyes/Koulen-Regular.ttf);
+}
+
+@font-face {
+    font-family: Alegreya;
+    src: url(fontscauseyes/Alegreya-Medium.ttf);
+}
