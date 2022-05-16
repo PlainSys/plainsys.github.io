@@ -6,7 +6,7 @@ body {
 .homepage {
     max-width: 1200px;
     margin: auto;
-    background-color: rgba(197, 37, 37, 0.8);
+    background-color: rgba(255, 255, 0, 0.73);
     padding: 10px;
     height: 90vh;
 }
