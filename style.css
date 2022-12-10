@@ -1,0 +1,78 @@
+body {
+    background-image: url(images/bg.png);
+    background-size: 1920px, 1080px;
+}
+
+table, th, td {
+  border:3px solid black;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: pixel3;
+    color: greenyellow;
+}
+
+p {
+    font-size: 35px;
+    font-family: pixel2;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 100;
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    margin: auto;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.maindiv {
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgba(197, 37, 37, 0.8);
+    padding: 10px;
+    height: 130vh;
+}
+
+.tabs {
+    background-color: #68cdfc;
+    padding: 0.01px;
+    text-align: center;
+    max-width: 450px;
+    
+}
+
+@font-face {
+   font-family: pixel1;
+   src: url(fonts/fs-pixel-multilingual-c.ttf);
+}
+
+@font-face {
+   font-family: pixel2;
+   src: url(fonts/Connection-arMJ.otf);
+}
+
+@font-face {
+   font-family: pixel3;
+   src: url(fonts/akumajou-densetsu.ttf);
+}
+
+@font-face {
+   font-family: pixel4;
+   src: url(fonts/freaktion.ttf);
+}
