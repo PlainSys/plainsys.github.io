@@ -1,0 +1,84 @@
+/* Im so bad at coding that I literally Duplicated the sub.css page just to remove the tab code so the patchnotes
+can work. AAAAAAAAAA */
+
+body {
+    background-image: url(images/background2.png);
+    background-size: 1920px, 1080px;
+}
+
+h1 {
+    font-family: pixel3;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: pixel3;
+    color: lightblue;
+}
+
+li {
+    font-size: 35px;
+}
+
+p {
+    color: lightblue;
+    font-family: pixel2;
+    font-size: 30px;
+}
+
+table, th, td {
+    border:3px solid black;
+}
+
+td {
+    text-align: center;
+    font-family: pixel2;
+    color: yellow;
+}
+
+tr {
+    font-family: pixel4;
+    color: white;
+}
+
+.nottabs {
+    font-size: 35px;
+}
+
+.datab {
+    list-style-type: none;
+    margin: 0;
+    padding: 100;
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.bootlegmain {
+    max-width: 990px;
+    margin: auto;
+    background-color: rgba(82, 81, 81, 0.9);
+    padding: 10px;
+    height: 170vh;
+}
+
+@font-face {
+   font-family: pixel1;
+   src: url(fonts/fs-pixel-multilingual-c.ttf);
+}
+
+@font-face {
+   font-family: pixel2;
+   src: url(fonts/Connection-arMJ.otf);
+}
+
+@font-face {
+   font-family: pixel3;
+   src: url(fonts/akumajou-densetsu.ttf);
+}
+
+@font-face {
+   font-family: pixel4;
+   src: url(fonts/freaktion.ttf);
+}

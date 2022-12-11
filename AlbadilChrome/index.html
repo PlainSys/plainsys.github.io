@@ -6,7 +6,7 @@
         <link rel="icon" type="image/png" href="images/pleto.png"/>
         <link rel="stylesheet" href="css.css">
 
-        <style type="text/css">
+        <style type="text/css"> 
             img #getImage {
                 width: 584;
                 height: 512px;  
@@ -15,20 +15,22 @@
     </head>
 
     <body>
-        <center><div class="container">
+        <center><div class="container"> <!--div that has the text-->
 
-            <div class="banner">
+            <div class="banner"> <!--banner ting-->
                 <img src="albadillogo1.jpg" alt="logo" height=250px width=1170px id="getImage">
             </div>
 
-            <div class="game">
-                <iframe src="A.html" height="512" width="584" title="Albadil Chrome"></iframe>
+            <div class="game"> <!--The game-->
+                <iframe id="embededGame" src="A.html" height="512" width="584" title="Albadil Chrome"></iframe>
                 <br>
-                <a href="A.html">Click here to play in different tab (resets progress if clicked)</a>
+                <button onclick="goFullscreen('embededGame'); return false">Fullscreen</button> <!--fullscreen button-->
+                <br>
+                <a href="A.html">Click here to play in different tab (resets progress if clicked)</a>        
             </div>
 
             <div class="text">
-                <p id="demo">Albadil Chrome is the Web port of Albadil. Other then the removal of Score saving alongside some fixes and nerfs,
+                <p id="hide">Albadil Chrome is the Web port of Albadil. Other then the removal of Score saving alongside some fixes and nerfs,
                     its pretty much the same. Albadil is a top-down shooter that is an alternate reality to PolyHeck. You play as
                 Shooterbot and Bunny, the last "civillians" on the planet. Go through 4 stages to defeat NarKabhira.</p>
             </div>
@@ -39,7 +41,7 @@
                 
                 <input type="button" onclick="imagefun()" value="Change Banner (incase you prefer the pixel logo)">
                 <br>
-                <button type="button" onclick="document.getElementById('demo').style.display='none'">Hide the text</button>
+                <button type="button" onclick="document.getElementById('hide').style.display='none'">Hide the text</button>
                 <br>
                 <button onclick="window.print()">Print this page</button>
 
@@ -52,7 +54,16 @@
                         else {
                             Image_Id.src = "albadillogo1.jpg";
                         }
-                    }  
+                    }
+
+                    function goFullscreen(id) {
+                        var element = document.getElementById(id);
+                        if (element.mozRequestFullScreen) {
+                            element.mozRequestFullScreen();
+                        } else if (element.webkitRequestFullScreen) {
+                            element.webkitRequestFullScreen();
+                        }
+                    }
                 </script>
             </div>
 
