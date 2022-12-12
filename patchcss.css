@@ -55,12 +55,25 @@ tr {
     border-radius: 12px;
 }
 
-.bootlegmain {
+.test {
     max-width: 990px;
     margin: auto;
     background-color: rgba(82, 81, 81, 0.9);
     padding: 10px;
     height: 170vh;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.bootlegmain {
+    background-color: rgba(82, 81, 81, 0.9);
+    margin: auto;
+    padding-bottom: 2em;
+    box-sizing: border-box;
+    max-width: 990px;
 }
 
 @font-face {

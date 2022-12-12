@@ -59,18 +59,19 @@ li a {
 }
 
 .bootlegmain {
-    max-width: 990px;
-    margin: auto;
     background-color: rgba(82, 81, 81, 0.9);
+    margin: auto;
+    padding-bottom: 2em;
     padding: 10px;
-    height: 120vh;
+    box-sizing: border-box;
+    max-width: 990px;
 }
 
 .tabs {
     background-color: #68cdfc;
     padding: 0.01px;
     text-align: center;
-    max-width: 450px;
+    max-width: 550px;
     
 }
 

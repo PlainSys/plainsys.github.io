@@ -18,6 +18,12 @@ p {
     font-family: pixel2;
 }
 
+a {
+    font-size: 35px;
+    font-family: pixel2;
+    color: rgb(233, 68, 255);
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -53,7 +59,7 @@ li a {
     background-color: #68cdfc;
     padding: 0.01px;
     text-align: center;
-    max-width: 450px;
+    max-width: 550px;
     
 }
 
