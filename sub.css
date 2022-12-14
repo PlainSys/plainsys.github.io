@@ -3,6 +3,10 @@ body {
     background-size: 1920px, 1080px;
 }
 
+::selection {
+    background: rgb(99, 255, 96);
+}
+
 h1 {
     font-family: pixel3;
     font-size: 40px;

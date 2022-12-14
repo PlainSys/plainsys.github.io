@@ -3,6 +3,10 @@ body {
     background-size: 1920px, 1080px;
 }
 
+::selection {
+    background: rgb(99, 255, 96);
+}
+
 table, th, td {
   border:3px solid black;
 }
@@ -52,7 +56,7 @@ li a {
     margin: auto;
     background-color: rgba(197, 37, 37, 0.8);
     padding: 10px;
-    height: 130vh;
+
 }
 
 .tabs {
