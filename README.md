@@ -2,7 +2,7 @@
 
 # plainsys.github.io
 ---
-<p align="center"><h1>Welcome to the Trash Ting</h1></p>
+<h1 align="center">Welcome to the Trash Ting</h1>
 
 Sourc code to [The Trash Ting](https://plainsys.github.io/)
 
