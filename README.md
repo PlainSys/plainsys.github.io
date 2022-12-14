@@ -8,7 +8,7 @@ Sourc code to [The Trash Ting](https://plainsys.github.io/)
 
 Just a basic website I made because... I was bored, what else can I say.
 
-<p align="center"><h1>Terms ig</h1></p>
+<h1 align="center">Terms ig</h1>
 
 *For those who are here just to view the site then ignore this but for those who wanna do stuff with it.*
 
