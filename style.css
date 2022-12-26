@@ -67,6 +67,12 @@ li a {
     
 }
 
+.addborder {
+    border-style: inset;
+    border: 10px inset rgb(25, 22, 39);
+    border-radius: 50px;
+}
+
 @font-face {
    font-family: pixel1;
    src: url(fonts/fs-pixel-multilingual-c.ttf);
