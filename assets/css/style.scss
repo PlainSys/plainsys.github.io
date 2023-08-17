@@ -8,21 +8,19 @@ body {
 }
 
 h1 {
-    color: #49068c;
-    font-size: 40px;
-    padding: 0px;
+    color: #0501ff;
+    font-size: 42px;
 }
 
 p {
-    font-size: 24px;
-    padding: 0px;
+    font-size: 18px;
+    padding: 0%;
 }
 
 .container {
     background-color: rgb(23, 23, 40);
-    width: 80%;
+    max-width: 900px;
+    width: 1170px;
     min-height: 100%;
     height: auto;
-    margin: auto;
-    display: flex;
 }
