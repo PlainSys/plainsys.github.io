@@ -1,1 +1,2 @@
 theme: jekyll-theme-hacker
+permalink: /Dev-log/:year/:month/:day/:title
